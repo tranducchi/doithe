@@ -1,0 +1,239 @@
+/* Reset css */
+*{
+    padding:0;
+    margin:0;
+}
+
+/* Css Top */
+#top .right{
+    line-height: 58px;
+}
+.register button:hover  a{
+    color:white!important;
+}
+.contact{
+    font-size:18px;
+}
+/* Menu */
+#menu ul li a{
+    
+    padding:15px 15px;
+    right:20px;
+    display: block;
+    font-weight: 300;
+    transition:0.4s;
+}
+#menu ul li:hover a{
+    background:#15839B;
+}
+#menu nav.navbar.navbar-expand-lg.navbar-dark.bg-info.text-white{
+    padding-top: 0!important;
+    padding-bottom:0!important;
+}
+#menu form{
+    position: relative;
+}
+#menu form i{
+    position:absolute;
+    right: 9%;
+    color: #675d5d;
+    top: 24%;
+    font-size: 20px;
+}
+#menu form input{
+    height: 35px;
+}
+/* Content */
+
+#content h3{
+    font-size:18px;
+    padding:15px 0px 0px 0px;
+    text-align:center;
+}
+#content hr{
+    background: #FBCB00;
+    height:3px;
+    width: 70%;
+    margin-left:86px;
+}
+/* Message */
+#message{
+    padding: 20px 0px;
+}
+#message a{
+    font-size: 19px;
+}
+#message p i{
+    color:#FBCB00;
+    font-size: 23px;
+}
+/* Footer */
+#footer{
+    background:#226D7F;
+    width: 100%;
+    height: auto;
+}
+#footer .contact{
+    color:white;
+    margin-top: 20px;
+}
+#footer .contact{
+    text-align:center;
+    
+}
+#footer .contact p{
+    font-size:16px;
+    text-align: left!important;
+}
+#footer .contact span{
+    font-size: 22px;
+    padding-bottom:10px;
+    display: block;
+}
+#footer .info_detail{
+    width:504px;
+    height: 148px;
+    background: white;
+    border-radius: 5px;
+    position: relative;
+    top: 17%;
+}
+#footer .info_detail{
+    width:100%!important;
+}
+.info_detail .service a {
+    color: black;
+}
+
+.info_detail .phone {
+    float: left;
+}
+
+.info_detail .email {
+    float: left;
+}
+
+.info_detail p.service {
+    float: left;
+    border: 1px solid gray;
+    padding: 2px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.info_detail p.service {
+    font-size: 13px;
+}
+
+.info_detail p {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.info_detail img {
+    float: left;
+    padding-top: 48px;
+}
+
+/* Response*/
+/* ----Ipad */
+@media (min-width: 576px) and (max-width: 1199.98px) {
+    /* #top .register{
+        display:none!important;
+    } */
+    #content .container .col-md-4{
+        flex: none!important;
+    }
+    #footer .info_detail{
+        top: 0%!important;
+    }
+    #menu form input{
+        width:100%!important;
+    }
+    #menu form i{
+        right:2%!important;
+    }
+    .col-lg-4.col-12.col-sm-12.col-md-12.border.border-info.rounded{
+        border: none!important;
+    }
+    li.nav-item.active {
+        border-bottom: 1px solid white;
+    }
+}
+/* Mobile */
+@media(max-width: 575.98px) {
+    li.nav-item.active {
+        border-bottom: 1px solid white;
+    }
+    #top .container.d-flex.justify-content-between.p-3{
+        padding:0!important;
+  
+    }
+    #top .left{
+        width:100px;
+        padding: 11px 0px 2px 5px;
+        margin-left: 9px;
+    }
+   #top .contact{
+       display: none;
+   }
+   /* #top .register{
+    display: none;
+    } */
+    #top a{
+        padding:0px 4px;
+    }
+    #content .container .col-sm-12.col-md-12.border.border-info.rounded{
+        margin:10px 0;
+    }
+    #content .container .col-sm-12.col-md-12.border.border-info.rounded{
+        margin:10px 0;
+    }
+    #service  ul.nav.nav-pills{
+        display:none!important;
+    }
+    #message h2{
+        font-size:19px;
+    }
+    #content .col-lg-4.col-12.col-sm-12.col-md-12.border.border-info.rounded{
+        border:none!important;
+    }
+    #content .container hr{
+        margin-right: 20px;
+    }
+    #content .container hr{
+        margin-left: 48px;
+    }
+    #message .container a{
+     
+        font-size: 15px;
+      
+    }
+    #message .container p{
+        margin-bottom:0;
+        padding:4px 0;
+    }
+    #message .container hr{
+        margin:0;
+    }
+   div#service div.container.border.border-info.rounded{
+        border: none!important;
+    }
+    .info_detail .service a{
+        color:white!important;
+    }
+    .info_detail .email{
+        color:white!important;
+    }
+    .info_detail .phone{
+        color:white!important;
+        margin-left: 45px;
+    }
+    
+}
+/* Response for Desktop */
+@media (min-width: 992px){
+    #content .col-lg-4{
+        max-width: 31%!important;
+    }
+}
