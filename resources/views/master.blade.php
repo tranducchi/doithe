@@ -8,9 +8,9 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
-        <link href="{{asset('css/style.css')}}" rel="stylesheet" >
-        <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet" >
-        <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet" >
+        <link href="/css/style.css" rel="stylesheet" >
+        <link href="/css/font-awesome.min.css" rel="stylesheet" >
+        <link href="/css/bootstrap.min.css" rel="stylesheet" >
        
     </head>
     <body>
@@ -20,7 +20,7 @@
             
             <div class="left">
                 <div class="logo">
-                    <img src="{{asset('img/logo.png')}}" class="img-fluid" alt="">
+                    <img src="img/logo.png" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="right d-flex justify-content-between d-lg-none d-md-none">
@@ -315,7 +315,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="info_detail">
                    
-                        <img src="{{asset('/img/logo.png')}}" alt=""/>
+                        <img src="/img/logo.png" alt=""/>
                         <p style="font-size:18px; padding-top:21px">Ý KIẾN VỀ DỊCH VỤ DOITHE123</p>
                         <p class="service"><i class="fa fa-user-circle-o text-info" aria-hidden="true"></i><a href="">KIẾU NẠI DỊCH VỤ</a></p>
                         <div class="email">
@@ -408,9 +408,9 @@
     <!-- End two modal -->
     <!-- Link script  -->
         
-        <script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
-        <script src="{{asset('js/bootstrap.min.js')}}"></script>
-        <script src="{{asset('js/1.js')}}"></script>
+        <script src="/js/jquery-3.3.1.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/1.js"></script>
     </body>
    
 </html>
