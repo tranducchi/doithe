@@ -59,16 +59,36 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">TRANG CHỦ <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">TRANG CHỦ </i><span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">DỊCH VỤ</a>
+                            <div class="dropdown show">
+                                <a class="nav-link active dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        DỊCH VỤ
+                                </a>
+                              
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Mua thẻ điện thoại</a>
+                                  <a class="dropdown-item" href="#">Nạp tiền điện thoại</a>
+                                  <a class="dropdown-item" href="#">Bán thẻ cào</a>
+                                </div>
+                            </div>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#">TRIẾT KHẤU</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">TIN TỨC</a>
+                            <div class="dropdown show">
+                                <a class="nav-link active dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        DỊCH VỤ
+                                </a>
+                              
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Hỏi đáp</a>
+                                  <a class="dropdown-item" href="#">Hướng dẫn</a>
+                             
+                                </div>
+                            </div>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#">NẠP TIỀN VÀO TÀI KHOẢN</a>
@@ -93,13 +113,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100 img-fluid" src="http://placehold.jp/1366x329.png"  alt="First slide">
+                    <img class="d-block w-100 img-fluid" src="http://placehold.jp/1366x400.png"  alt="First slide">
                 </div>
                 <div class="carousel-item img-fluid">
-                    <img class="d-block w-100" src="http://placehold.jp/1366x329.png"  alt="Second slide">
+                    <img class="d-block w-100" src="http://placehold.jp/1366x400.png"  alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid" src="http://placehold.jp/1366x329.png" alt="Third slide">
+                    <img class="d-block w-100 img-fluid" src="http://placehold.jp/1366x400.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -359,6 +379,10 @@
                         <input type="text" class="form-control" placeholder="Điền tài khoản">
                     </div>
                     <div class="form-group">
+                        <label for="">Số điện thoại : </label>
+                        <input type="text" class="form-control" placeholder="Điền tài khoản">
+                    </div>
+                    <div class="form-group">
                         <label for="">Mật khẩu : </label>
                         <input type="text" class="form-control" placeholder="Nhập mật khẩu">
                     </div>
@@ -410,7 +434,7 @@
         
         <script src="/js/jquery-3.3.1.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/1.js"></script>
+        <script src="/js/main.js"></script>
     </body>
    
 </html>
