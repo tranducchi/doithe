@@ -1,0 +1,13 @@
+@extends('front-end.master')
+@section('slider')
+    @include('front-end.layouts.slider')
+@endsection
+@section('content')
+    @include('front-end.layouts.card')
+@endsection
+@section('message')
+    @include('front-end.layouts.message')
+@endsection
+@section('info')
+    @include('front-end.layouts.info')
+@endsection

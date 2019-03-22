@@ -3,6 +3,15 @@
     padding:0;
     margin:0;
 }
+h3{
+    font-size: 18px!important;
+}
+h2{
+    font-size:20px!important;
+}
+h1{
+    font: 22px!important;
+}
 
 /* Css Top */
 #top .right{
@@ -42,6 +51,9 @@
 }
 #menu form input{
     height: 35px;
+}
+.buy_card h3{
+    font-size:18px;
 }
 #menu a.nav-link:hover div.dropdown-menu{
     display: block!important;
